@@ -477,4 +477,16 @@ footer > p{
    .depoimentos{
     gap: 60px;
    }
+
+   .dna{
+    display: none;
+   }
+
+   .selo{
+    display: none;
+   }
+
+   .setas{
+    display: none;
+   }
 }
