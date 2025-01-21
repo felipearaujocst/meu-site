@@ -33,17 +33,13 @@ img{
 }
 
 body {
-    background-color: var(--cor-amarelo);
+    background-image: radial-gradient(circle at 80% -15%, #686868 1%, #0e0e0e 22% );
     font-family: var(--fonte-padrao);
 }
 
 a {
     text-decoration: none;
     color: white;
-}
-
-.menu-bg {
-    background-color: var(--cor-cinza);
 }
 
 .menu {
@@ -85,28 +81,30 @@ header p {
 /* ***************** */
 
 .cta1 {
-    background-color: #FFD600;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     height: 550px;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     
     
 
 }
 
 
-.text-orcamento {
+.cat1 > .text-orcamento {
 
     padding: 40px;
+    flex-basis: 1;
+    
     
 }
 
 
 .text-orcamento h1 {
-    color: var(--cor-cinza);
+    color: white;
     font-size: 3rem;
     line-height: 50px;
     margin-bottom: 50px;
@@ -117,10 +115,10 @@ header p {
 
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: var(--cor-cinza);
+    color: white;
     font-size: 12px;
     padding: 15px 40px;
-    border: 2px solid var(--cor-cinza);
+    border: 2px solid white;
     border-radius: 100px;
 
 }
@@ -133,18 +131,15 @@ header p {
 
 
 
-.image-ajuste{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: 50px;
+.image-ajuste > img{
+    
+    max-width: 100%;
+    height: auto;
+    
     
 }
 
-.dna{
-    z-index: 1;
-    margin: 30px;
-}
+
 
 .setas {
     position: absolute;
