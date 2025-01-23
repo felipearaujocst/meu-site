@@ -82,24 +82,19 @@ header p {
 
 .cta1 {
     max-width: 1200px;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
     align-items: center;
     height: 550px;
-    justify-content: space-between;
-    
-    
-    
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding: 40px;
 
 }
 
 
-.cat1 > .text-orcamento {
-
-    padding: 40px;
-    flex-basis: 1;
-    
-    
+.text-orcamento {
+    flex-basis: 500px;
 }
 
 
@@ -131,11 +126,9 @@ header p {
 
 
 
-.image-ajuste > img{
+.image-ajuste > img {
     
-    max-width: 600px;
-    height: auto;
-    
+    width: 500px;
     
 }
 
